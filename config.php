@@ -3,11 +3,11 @@
 
 $host = "localhost" ;
 $user = "root" ;
-$password = "root"; 
-$dataBase = "todolist" ;
+$password = ""; 
+$dataBase = "todolist2" ;
 
-$dir_fs =  $_SERVER['DOCUMENT_ROOT']."/todolist/" ; 
-$dir_ws = "/todolist/";
+$dir_fs =  $_SERVER['DOCUMENT_ROOT']."/" ; 
+$dir_ws = "/";
 
 
 $mysqli = @new mysqli($host, $user, $password, $dataBase);
@@ -17,7 +17,5 @@ if ($mysqli->connect_errno) {
     printf("Échec de la connexion: %s\n", $mysqli->connect_error);
     exit();
 }
-
-
 
 ?>

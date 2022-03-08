@@ -1,0 +1,19 @@
+.titre{
+    font-size: 25px;
+    color:#745d15;
+
+}
+
+.substr{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: inline-block;
+}
+
+p{
+
+ background-color: #b4b887;          
+
+}
